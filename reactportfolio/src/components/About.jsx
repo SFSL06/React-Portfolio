@@ -13,10 +13,10 @@ function About() {
 		          </p>
               <div>
               <a href="#contact">
-              Get in touch
+              Get in touch 
               </a>
               <a href="#projects">
-                My Recent Projects
+                <br/>View my work
               </a>
               </div>
             </div>

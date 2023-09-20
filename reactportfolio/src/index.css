@@ -1,7 +1,7 @@
 /* hero background image */
 .bgimage {
   height:100vh;
-  background: url('images/heroImage.jpeg');
+  background: url('./assets/hero_bg.jpg');
   background-size:cover;
   position:relative;
 }
@@ -18,5 +18,25 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(9, 9, 9);
+  color: white;
+}
+/* spacing on all sections */
+#home, #portfolio, #contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+.card-body{
+  background-color: rgb(223, 220, 220);
+  border: grey;
+  border-radius: 0.5rem;
+  border-style:double;
+  text-align: center;
+}
+
+.btn-success
+{
+  margin-bottom: 5px;
 }
